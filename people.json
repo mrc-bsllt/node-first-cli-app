@@ -1,0 +1,21 @@
+[
+  { "name": "Marco", "email": "marco@mail.com", "telephone": "xxx-xxxxxxx" },
+  { "name": "Simone", "email": "simone@mail.com", "telephone": "xxx-xxxxxxx" },
+  { "name": "Enrico", "email": "enrico@mail.com", "telephone": "xxx-xxxxxxx" },
+  { "name": "Simona", "email": "simona@mail.com", "telephone": "xxx-xxxxxxx" },
+  {
+    "name": "Raffaele",
+    "email": "raffaele@email.com",
+    "telephone": "762-927463"
+  },
+  {
+    "name": "Giovanna",
+    "email": "default@mail.com",
+    "telephone": "111-1111111"
+  },
+  {
+    "name": "Benedetta",
+    "email": "benny@mail.com",
+    "telephone": "333-874653762"
+  }
+]
