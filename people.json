@@ -1,7 +1,6 @@
 [
   { "name": "Marco", "email": "marco@mail.com", "telephone": "xxx-xxxxxxx" },
   { "name": "Simone", "email": "simone@mail.com", "telephone": "xxx-xxxxxxx" },
-  { "name": "Enrico", "email": "enrico@mail.com", "telephone": "xxx-xxxxxxx" },
   { "name": "Simona", "email": "simona@mail.com", "telephone": "xxx-xxxxxxx" },
   {
     "name": "Raffaele",
@@ -13,6 +12,7 @@
     "email": "default@mail.com",
     "telephone": "111-1111111"
   },
+  { "name": "Marco", "email": "marco2@mail.com", "telephone": "xxx-xxxxxxx" },
   {
     "name": "Benedetta",
     "email": "benny@mail.com",

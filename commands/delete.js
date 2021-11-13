@@ -34,8 +34,7 @@ function deletePerson(name) {
         let index = people.indexOf(personToDelete[0]);
         people.splice(index, 1);
     
-        fs.writeFileSync('people.json', JSON.stringify(people));
-        console.log(chalk.green.underline(`"${name}" è stato tolto correttamente!`));
+        printSuccess(name, people);
     } else {        
         inquirer.prompt([
             {
@@ -50,11 +49,15 @@ function deletePerson(name) {
             
             let deletedPersonName = people[index].name;
             people.splice(index, 1);
-        
-            fs.writeFileSync('people.json', JSON.stringify(people));
-            console.log(chalk.green.underline(`"${deletedPersonName}" è stato tolto correttamente!`));
+            
+            printSuccess(deletedPersonName, people);
         })
     }
+}
+
+function printSuccess(name, array) {
+    fs.writeFileSync('people.json', JSON.stringify(array));
+    console.log(chalk.green.underline(`"${name}" è stato tolto correttamente!`));
 }
 
 module.exports = del;
